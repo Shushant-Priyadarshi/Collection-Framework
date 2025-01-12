@@ -1,0 +1,20 @@
+⭐️Collection:  A collection allows a group of objects treated as single unit.
+               The collection framework provides the custom utility classes for
+               various kinds of collections.
+
+        ➡ It have 3 main parts:
+            1️⃣Core Interfaces: The collection interface extends the iterable interface that
+                                that specifies an iterator to sequentially access the element
+                                of an iterable object.
+
+                        Iterable
+                            ⬆️
+                        Collection
+                            ⬆️
+                            ⬆️
+               ⬆️           ⬆️         ⬆️               ⬆️
+              List         Queue       Set              Map
+                            ⬆️         ⬆️               ⬆️
+                           Deque      SortedSet       SortedMap
+                                        ⬆️               ⬆️
+                                     NavigableSet     NavigableMap
