@@ -1,0 +1,10 @@
+⭐️List interface is a part of the java.util package and is a sub-interface of the collection
+interface.
+⭐️It provides a way to store an ordered collection of elements.
+⭐️It can have duplicate values.
+⭐️Indexed base access.
+⭐️List interfaces is implemented by several classes like:
+    1) ArrayList
+    2) LinkedList
+    3) Vector
+    4) Stack

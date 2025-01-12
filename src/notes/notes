@@ -18,3 +18,15 @@
                            Deque      SortedSet       SortedMap
                                         ⬆️               ⬆️
                                      NavigableSet     NavigableMap
+            ⭐️Collection: It provides the blueprint for the basic operations that are common
+                    to all collections like adding,removing and checking its existence.
+            ⭐️List: An ordered collection that can contain duplicate value.
+                    eg.ArrayList, LinkedList
+            ⭐Set: A collection that cannot have duplicate values.
+                    eg.HashSet, TreeSet
+            ⭐️Queue: A collection designed to hold element prior to processing.
+            ⭐Deque: A double-ended queue that allows insertion and removal from both sides
+            ⭐️Map:  An interface that represents a collection of key value pairs.
+                    eg.HashMap,TreeMap
+
+‼️‼️NOW EXPLORE list_interface PACKAGE FROM HERE
