@@ -1,3 +1,17 @@
 ⭐️ArrayList is a resizeable array implementation of the list interface.
 ⭐️The dynamic array is implemented by making a new array when the current array is
   full and copying the elements to it.
+⭐️The default capacity of array list is 10.
+⭐️Custom capacity => ArrayList<Integer> list = new ArrayList<>(1000); => 1000 capacity
+
+🏋🏻‍♀️ArrayList Working :
+
+    1️⃣When adding:
+        1)checking capacity of the array.
+        2)resize if necessary approximately 1.5 larger than the previous.
+        3)add the element
+
+    2️⃣When removing:
+        1)validate the index
+        2)removing the elements and shift it to one position left.
+        3)the size is decremented by 1.
