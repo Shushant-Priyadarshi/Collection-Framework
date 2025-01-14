@@ -15,3 +15,7 @@
         1)validate the index
         2)removing the elements and shift it to one position left.
         3)the size is decremented by 1.
+
+‼️Comparator: Comparator is an interface for customizing the ordering.
+
+
