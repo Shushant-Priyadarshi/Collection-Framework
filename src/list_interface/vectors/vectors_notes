@@ -1,0 +1,4 @@
+🎯Vector: In Java, Vector is a part of the Java Collection Framework and is used to store
+  dynamic lists of elements. It is similar to an ArrayList, but with synchronization, making
+  it thread-safe.
+
