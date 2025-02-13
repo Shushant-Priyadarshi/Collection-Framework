@@ -1,0 +1,18 @@
+🎯LinkedLists: implements List interface
+    👉 Unlike an arraylist which uses a dynamic array to store the elements ,
+        LinkedList stores its elements as nodes in a doubly linkedList.
+
+    👉 A node consists of two parts:
+        1️⃣Data : the value data
+        2️⃣pointers : two pointer one for next and one for prev.
+
+    👉 Performance Considerations:
+        1️⃣ Insertions and Deletions: LL is better at insertions and deletions because
+                                      it does not need to shift the elements.
+
+        2️⃣ Random Access: It takes more time to access any random elements
+                           because it needs to traverse the elements in order to get that element.
+
+        3️⃣ Memory overhead: It requires more memory because it contain two parts.
+
+

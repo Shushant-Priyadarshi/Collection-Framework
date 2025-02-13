@@ -18,6 +18,7 @@
                            Deque      SortedSet       SortedMap
                                         ⬆️               ⬆️
                                      NavigableSet     NavigableMap
+
             ⭐️Collection: It provides the blueprint for the basic operations that are common
                     to all collections like adding,removing and checking its existence.
             ⭐️List: An ordered collection that can contain duplicate value.

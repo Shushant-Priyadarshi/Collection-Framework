@@ -15,6 +15,7 @@ class MyComparator implements Comparator<Integer> {
                      // suppose [ 5,3] => o1-o2 => 5-3 => 2 => 3 pehle aaega
                     // [3,5] => o1-o2 => 3-5 => -2 => 3 pehle aaega
         return o2-o1;
+        //return o1-o2;
     }
 }
 
@@ -30,17 +31,17 @@ public class Two {
         list.add(22);
 
         list.sort(new MyComparator()); //public void sort(Comparator<? super E> c)
-        //System.out.println(list);
+        System.out.println(list);
 
         ArrayList<String> list1 = new ArrayList<>();
         list1.add("Damn");
         list1.add("Damn1");
         list1.add("Damn12");
         list1.add("Damn1234");
-        System.out.println(list1);
+        //System.out.println(list1);
 
         list1.sort((a,b)->b.length()-a.length());
-        System.out.println(list1);
+        //System.out.println(list1);
 
 
     }
