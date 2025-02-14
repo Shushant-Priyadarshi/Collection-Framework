@@ -1,0 +1,4 @@
+🎯Stack class is a part of the java.util package and extends Vector.
+  It follows the LIFO (Last In, First Out) principle, meaning that elements are added and
+  removed from the top of the stack.
+
