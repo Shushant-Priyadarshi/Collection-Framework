@@ -1,0 +1,38 @@
+🎯Internal Working of HashMaps:
+
+    👉Basic Components:
+        1️⃣key: The identifier use to retrieve the value
+        2️⃣value: The data associated with the key
+        3️⃣bucket: A place where key-value pairs are stored (array format)
+        4️⃣hash function: It converts the key into index for storage in the bucket.
+
+        ⭐️Hash Function: A function which takes the input and return a fixed size string of bytes
+                        typically a numerical value, this output is known as hash code ,hash value or hash.
+            ‼️Important properties:
+                         1️⃣Deterministic property: The deterministic property of
+                                                 a hash function means that for the same input, the function will
+                                                 always produce the same output (hash value).
+                                                 Example: You put "apple" in → It always gives you 12345.
+                         2️⃣Fixed Output size.
+
+        ⭐️Bucket Array: Internally, HashMap uses an array of Node<K, V> (called a bucket array) where each bucket
+                       is a linked list or a balanced tree (after Java 8) when collisions occur.
+                            👉If a bucket has ≤ 8 elements, it remains a linked list.
+                            👉If a bucket has > 8 elements, it converts into a Red-Black Tree to improve search efficiency from O(n) → O(log n).
+
+    👉How Data is stored:
+        1️⃣Hashing the key: The key is passed in the hash function which returns a hash code which helps
+                            to tell which bucket index will be used to store that pair.
+        2️⃣Calculating the index = hashcode % arraysize
+        3️⃣Storing the data at the calculated index.
+
+    👉How Data is Retrieved:
+        When we do map.get(key) this key is used to generate the hash and then this hash is used to
+        find the index and that index is used to search the pairs in the bucket.
+
+        ‼️ Handling Collision:
+            Since different keys can generate the same index (collision), HashMap uses a technique
+            to handle this situation.
+            They use LinkedList or Balance tree for this.
+
+
