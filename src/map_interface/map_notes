@@ -1,0 +1,7 @@
+🎯Map: Map is an object that maps keys to values.
+    👉It cannot contains duplicate keys.
+    👉One value per key
+    ‼️Map does not extend collection interface because Map
+     follows a key-value pair structure, while Collection deals with individual elements.
+
+
