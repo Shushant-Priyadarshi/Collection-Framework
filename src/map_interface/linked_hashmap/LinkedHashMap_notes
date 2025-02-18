@@ -1,0 +1,6 @@
+🎯LinkedHashMap:
+
+    👉Extends HashMap but maintains insertion order using a doubly linked list.
+    👉Provides the same O(1) time complexity for operations but with a slightly higher
+        memory cost due to extra pointers.
+
