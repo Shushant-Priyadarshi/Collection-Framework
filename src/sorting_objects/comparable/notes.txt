@@ -1,0 +1,6 @@
+Comparable interface is present in java.lang package and is used to sort where only one natural
+order is required like only one field.
+The interface is implemented by the class itself and compareTo(T o1, T o2) is required to override.
+=>if return 0 both obj are equal.
+=>if return -ve current obj is smaller.
+=>if return +ve current obj is greater.
