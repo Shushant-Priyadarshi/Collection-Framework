@@ -1,0 +1,13 @@
+A comparator is an interface which is present in java.util package which is used to
+implement multiple custom sorting orders for objects.
+
+We need to implement the comparator<T>.
+and override the compare method and write a custom logic.
+
+now ,
+compare(T o1 , T o2)
+=> return 0 => if both are equal
+=> return -ve => if o1 is smaller
+=> return +ve => if o1 is greater
+
+
