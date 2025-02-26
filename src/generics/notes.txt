@@ -1,0 +1,3 @@
+Generics in Java provide type safety, code reusability, and maintainability by allowing
+you to define classes, interfaces, and methods with type parameters. They solve several problems
+related to type casting, code duplication, and runtime errors.

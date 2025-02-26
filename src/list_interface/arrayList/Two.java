@@ -1,9 +1,8 @@
 package list_interface.arrayList;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Comparator;
-import java.util.ConcurrentModificationException;
+
 
 class MyComparator implements Comparator<Integer> {
 
